@@ -126,13 +126,13 @@ export default function Projetos() {
           </ProjectImage>
           <ProjectContent>
             <ProjectTag>Em Destaque</ProjectTag>
-            <ProjectTitle>Escola Sustentável 2024</ProjectTitle>
+            <ProjectTitle>Leitores do Futuro</ProjectTitle>
             <ProjectDescription>
-              Nossa iniciativa mais ambiciosa: transformar a escola em um modelo de 
-              sustentabilidade com energia solar, sistema de captação de água da chuva, 
-              compostagem e educação ambiental integrada ao currículo. O projeto envolve 
-              todos os segmentos de ensino e já reduziu em 40% nosso consumo de energia 
-              e 60% o desperdício de água.
+              Em homenagem à bibliotecária Maria Antonieta Ferraz, este projeto incentiva leitura em todos os segmentos da escola. Alunos do Fundamental II e Ensino
+              Médio, reinterpretam obras literárias de forma interdisciplinar —
+              trabalhando o mesmo livro em Português, História, Arte e outras disciplinas
+              ao mesmo tempo. O projeto fortalece o vínculo com a biblioteca escolar e
+              desperta o hábito da leitura na comunidade da Cidade Tiradentes.
             </ProjectDescription>
             <ProjectMeta>
               <MetaItem>
