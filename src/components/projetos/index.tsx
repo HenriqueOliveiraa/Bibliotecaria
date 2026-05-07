@@ -116,7 +116,7 @@ export default function Projetos() {
           </ProcessTimeline>
         </ProcessSection>
 
-        {/* Projeto em Destaque */}
+        {/* Projeto em Destaque ! */}
         <FeaturedProject>
           <ProjectImage>
             <img 
@@ -126,13 +126,14 @@ export default function Projetos() {
           </ProjectImage>
           <ProjectContent>
             <ProjectTag>Em Destaque</ProjectTag>
-            <ProjectTitle>Escola Sustentável 2024</ProjectTitle>
+            <ProjectTitle>Leitores do Futuro</ProjectTitle>
             <ProjectDescription>
-              Nossa iniciativa mais ambiciosa: transformar a escola em um modelo de 
-              sustentabilidade com energia solar, sistema de captação de água da chuva, 
-              compostagem e educação ambiental integrada ao currículo. O projeto envolve 
-              todos os segmentos de ensino e já reduziu em 40% nosso consumo de energia 
-              e 60% o desperdício de água.
+              Em homenagem à bibliotecária Maria Antonieta Ferraz, este projeto incentiva
+              a leitura em todos os segmentos da escola. Alunos do Fundamental II, Ensino
+              Médio e EJA reinterpretam obras literárias de forma interdisciplinar —
+              trabalhando o mesmo livro em Português, História, Arte e outras disciplinas
+              ao mesmo tempo. O projeto fortalece o vínculo com a biblioteca escolar e
+              desperta o hábito da leitura na comunidade da Cidade Tiradentes.
             </ProjectDescription>
             <ProjectMeta>
               <MetaItem>
@@ -142,7 +143,7 @@ export default function Projetos() {
                   <line x1="8" y1="2" x2="8" y2="6"/>
                   <line x1="3" y1="10" x2="21" y2="10"/>
                 </svg>
-                Iniciado em Janeiro 2024
+                Projeto contínuo — ano letivo 2025
               </MetaItem>
               <MetaItem>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -151,13 +152,13 @@ export default function Projetos() {
                   <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
                   <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                 </svg>
-                Toda a comunidade escolar
+                Todos os segmentos de ensino
               </MetaItem>
               <MetaItem>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
                 </svg>
-                Sustentabilidade & Ciências
+                Leitura & Interdisciplinaridade
               </MetaItem>
             </ProjectMeta>
           </ProjectContent>
