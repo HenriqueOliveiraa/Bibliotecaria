@@ -160,7 +160,7 @@ const Navbar = () => {
       <MobileNav $open={mobileOpen}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', padding: '1.5rem 1.5rem 1rem' }}>
           <img src="/logo.png" alt="Logo" style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
-          <span style={{ fontFamily: 'var(--font-cabourg-bold)', fontWeight: 700, fontSize: '1rem', color: '#000' }}>E.E Instituto Lumina</span>
+          <span style={{ fontFamily: 'var(--font-cabourg-bold)', fontWeight: 700, fontSize: '1rem', color: '#000' }}>E.E Maria Antonieta Ferraz</span>
         </div>
 
         <MobileNavLink onClick={() => handleMobileNav('/inicio')} $selected={isInicio}>
