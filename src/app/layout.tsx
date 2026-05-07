@@ -69,6 +69,9 @@ const robotoMedium = localFont({
 export const metadata: Metadata = {
   title: "Bibliotecaria",
   description: "PEI E.E MARIA ANTONIETA FERRAZ BIBLIOTECARIA",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({

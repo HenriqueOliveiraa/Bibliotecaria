@@ -120,7 +120,7 @@ export default function Projetos() {
         <FeaturedProject>
           <ProjectImage>
             <img 
-              src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&h=800&fit=crop" 
+              src="/foto5.jpg" 
               alt="Projeto em destaque"
             />
           </ProjectImage>
@@ -128,9 +128,8 @@ export default function Projetos() {
             <ProjectTag>Em Destaque</ProjectTag>
             <ProjectTitle>Leitores do Futuro</ProjectTitle>
             <ProjectDescription>
-              Em homenagem à bibliotecária Maria Antonieta Ferraz, este projeto incentiva
-              a leitura em todos os segmentos da escola. Alunos do Fundamental II, Ensino
-              Médio e EJA reinterpretam obras literárias de forma interdisciplinar —
+              Em homenagem à bibliotecária Maria Antonieta Ferraz, este projeto incentiva leitura em todos os segmentos da escola. Alunos do Fundamental II e Ensino
+              Médio, reinterpretam obras literárias de forma interdisciplinar —
               trabalhando o mesmo livro em Português, História, Arte e outras disciplinas
               ao mesmo tempo. O projeto fortalece o vínculo com a biblioteca escolar e
               desperta o hábito da leitura na comunidade da Cidade Tiradentes.
@@ -173,7 +172,7 @@ export default function Projetos() {
               Venha fazer parte dessa jornada de aprendizagem ativa e transformadora.
             </CTADescription>
             <CTAButton href="/alunos">
-              Conheça Mais Sobre Nossos Projetos
+              Conheça Mais Sobre Nossos Alunos
             </CTAButton>
           </CTAContent>
         </CTASection>
