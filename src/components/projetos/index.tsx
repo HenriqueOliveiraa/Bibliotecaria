@@ -39,7 +39,7 @@ export default function Projetos() {
       <Navbar />
       <Container>
 
-        {/* Hero Section */}
+        {/* Hero Section*/}
         <Hero>
           <HeroImage>
             <img 
