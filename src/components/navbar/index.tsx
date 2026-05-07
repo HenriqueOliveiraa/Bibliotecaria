@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { IoHomeOutline, IoInformationCircleOutline, IoBriefcaseOutline, IoMailOutline, IoSchoolOutline, IoMenuOutline, IoCloseOutline } from 'react-icons/io5';
 import { usePathname, useRouter } from 'next/navigation';
 
@@ -30,19 +30,28 @@ const Navbar = () => {
   const [showLogo, setShowLogo] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
+  const timerContent = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const timerLogo = useRef<ReturnType<typeof setTimeout> | null>(null);
+
   const isInicio = pathname === '/' || pathname.startsWith('/inicio');
 
   const handleMouseEnter = () => {
+    if (timerContent.current) clearTimeout(timerContent.current);
+    if (timerLogo.current) clearTimeout(timerLogo.current);
+
     setExpanded(true);
-    setTimeout(() => {
+    timerContent.current = setTimeout(() => {
       setShowContent(true);
     }, 100);
-    setTimeout(() => {
+    timerLogo.current = setTimeout(() => {
       setShowLogo(true);
     }, 300);
   };
 
   const handleMouseLeave = () => {
+    if (timerContent.current) clearTimeout(timerContent.current);
+    if (timerLogo.current) clearTimeout(timerLogo.current);
+
     setShowContent(false);
     setShowLogo(false);
     setExpanded(false);
@@ -59,7 +68,7 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Desktop Navbar - unchanged */}
+      {/* Desktop Navbar */}
       <NavbarContainer
         $expanded={expanded}
         onMouseEnter={handleMouseEnter}

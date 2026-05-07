@@ -120,7 +120,7 @@ export default function Projetos() {
         <FeaturedProject>
           <ProjectImage>
             <img 
-              src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=1200&h=800&fit=crop" 
+              src="/foto5.jpg" 
               alt="Projeto em destaque"
             />
           </ProjectImage>
